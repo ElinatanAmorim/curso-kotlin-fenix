@@ -1,0 +1,36 @@
+
+Crtl R = substituir
+
+Crtl F = localizar
+SHIFT 2 vezes, irá abrir a caixa de pesquisa e digite "Reformat Code."
+
+Shifit + F6 = mudar é um nome de variável, função ou classe
+
+Identar o código =
+    Ctrl + Alt + L
+
+função main = main tab
+
+println = sout
+
+Classes - RegraNota
+Funções/métodos - camelCase (primeira minúscula)
+Variáveis - camelCase
+Constantes	UPPER_CASE_SNAKE	VALOR_PI, TAMANHO_MAXIMO
+Pacotes	letras minúsculas, sem espaços	com.exemplo.calculadora
+
+Formatação:
+
+    Formatando o valor como moeda em real:
+        val formatoMoeda = NumberFormat.getCurrencyInstance(Locale("pt", "BR"))
+        val totalFormatado = formatoMoeda.format(total)
+
+Const e Val - Constantes
+    const - compilação, acontece enquanto estamos criando o software, exemplo PI
+        const val CAPACIDADE_MAXIMA_ARQUIVOS = 1000
+
+
+Observações:
+isAdmin ou hasCerticate é administrador ou tem certificado, quando trabalho com Boolean é mais fácil por assim
+
+Posso ter funções de mesmo nome, mas com parâmetros diferentes

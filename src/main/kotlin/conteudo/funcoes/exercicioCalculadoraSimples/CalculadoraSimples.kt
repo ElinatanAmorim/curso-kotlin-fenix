@@ -2,14 +2,14 @@ package conteudo.funcoes.exercicioCalculadoraSimples
 
 fun main() {
 
-    var calculo = CalculosSimples()
+    val calculo = CalculosSimples()
 //    val a = 10.0
 //    val b = 0.0
     println("Digite o valor de a: ")
-    var a = readln().toDouble()
+    val a = readln().toDouble()
 
     println("Digite o valor de b: ")
-    var b = readln().toDouble()
+    val b = readln().toDouble()
 
     println("o valor da soma é " + calculo.adicao(a, b))
     println("o valor da subtração é " + calculo.subtracao(a, b))
